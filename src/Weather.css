@@ -1,0 +1,107 @@
+.Weather {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 900px;
+  border:1px solid grey;
+  margin:20px;
+}
+
+.Weather input {
+  border-radius: 20px;
+  padding: 6px 9px;
+  border: none;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin:10px;
+}
+
+
+.Weather h1 {
+  font-size: 70px;
+
+  line-height: 28px;
+  margin-top: 70px;
+
+  text-transform: capitalize;
+}
+
+
+.Weather .main-temp {
+ 
+}
+
+.Weather .units {
+ 
+}
+.Weather .main-temp .active {
+  font-weight: bold;
+  cursor: default;
+  font-size: 25px;
+}
+.Weather .main-temp .active:hover {
+  text-decoration: none;
+  color: #4b0082;
+}
+
+.Weather a {
+  color: #4b0082;
+  text-decoration: none;
+}
+.Weather a:hover {
+  color: fuchsia;
+  text-decoration: none;
+}
+.Weather .indicators {
+  display: block;
+  text-align: end;
+  text-transform: capitalize;
+}
+.Weather li {
+  font-size: 19px;
+  font-weight: 100;
+ 
+  list-style: none;
+}
+
+.Weather li:first-letter {
+  text-transform: capitalize;
+}
+.Weather ul {
+ 
+}
+
+.Weather button {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 3px 9px;
+  border-radius: 100px;
+  position: relative;
+  top: 2px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Weather button:hover {
+  background: white;
+  color: #4b0082;
+}
+
+
+.Weather .day {
+  text-align: center;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  font-size: 19px;
+  transition: all 200ms ease-in-out;
+}
+
+.Weather .day:hover {
+  transform: scale(1.2);
+  color: #4b0082;
+}
