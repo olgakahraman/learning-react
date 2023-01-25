@@ -1,11 +1,11 @@
 import React from "react";
-export default function CurrentTemperature(props) {
-  function showCurrentTemperature(event) {
-    event.preventDefault();
+export default function CurrentTemperature() {
+  function handleClick() {
+   
     alert("Coming soon...");
   }
   return (
-    <button href="/" onClick={showCurrentTemperature}>
+    <button href="/" onClick={handleClick}>
       Current Temperature
     </button>
   );
