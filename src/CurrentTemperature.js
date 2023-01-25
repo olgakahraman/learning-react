@@ -1,7 +1,6 @@
 import React from "react";
 export default function CurrentTemperature() {
   function handleClick() {
-   
     alert("Coming soon...");
   }
   return (
