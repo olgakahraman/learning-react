@@ -1,9 +1,9 @@
-
 import "./App.css";
 import Weather from "./Weather";
 import SearchEngine from "./SearchEngine";
 import Hello from "./Hello";
 import Cities from "./Cities";
+import Cities1 from "./Cities1";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <SearchEngine />
       <Hello language="Spanish" />
       <Cities />
-    </div> 
+      <Cities1 />
+    </div>
   );
 }
 
