@@ -6,7 +6,11 @@ import Cities from "./Cities";
 import Cities1 from "./Cities1";
 import BalticCountries from "./BalticCountries";
 import Countries from "./Countries";
-let countries = [
+import AnimatedWeather from "./AnimatedWeather";
+
+
+function App() {
+  let countries = [
   {
     name: "France",
     capital: "Paris",
@@ -21,8 +25,6 @@ let countries = [
   },
   { name: "Australia", capital: "Camberra" },
 ];
-
-function App() {
   return (
     <div className="App">
       <Weather />
@@ -32,6 +34,7 @@ function App() {
       <Cities1 />
       <BalticCountries />
       <Countries countries={countries} />
+      <AnimatedWeather />
     </div>
   );
 }
